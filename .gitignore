@@ -1,0 +1,15 @@
+# These are the files that should be ignores by the git.
+# In keil, everytime you open the uvproj, a filw with the end as your user name will be created. To ignore it you should write as *.<User name>
+*.Dong            
+*~                
+*.[oa]
+*.htm
+*.sct
+*.d
+*.crf
+*.s
+*.axf
+*.map
+*.lnp
+*.Bak
+*.iex

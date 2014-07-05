@@ -1,0 +1,17 @@
+S,Q
+
+
+To ensure you can debug this file in Keil uvision successfully.
+There are few steps:
+1.In the options-Target:
+Verify you use the MicroLIB.
+IROM1 Start:0x8000000 Size:0x20000
+IRAM1 Start:0x20000000 Size: 0x4000
+2.Debug:
+Select ST-link Debugger 
+-Settings:SWD/SW not JPAG
+Select Run to main()
+3.Utilities:
+Use ST-link Debugger && Update T*
+Add the Device Size in the Flash Download Tab.
+ 
